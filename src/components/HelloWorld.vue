@@ -1,12 +1,12 @@
 <template>
-  <div></div>
+  <v-container>
+  </v-container>
 </template>
 
 <script>
-export default {
-  name: 'HelloWorld',
-}
-</script>
+  export default {
+    name: 'HelloWorld',
 
-<style scoped lang="scss">
-</style>
+    data: () => ({}),
+  }
+</script>
